@@ -1,5 +1,5 @@
 //
-//  FeedViewController.swift
+//  test1ViewController.swift
 //  Facebook2
 //
 //  Created by Omar Siddiqui on 6/19/16.
@@ -8,24 +8,11 @@
 
 import UIKit
 
-class FeedViewController: UIViewController, UIScrollViewDelegate
-{
+class test1ViewController: UIViewController {
 
-    
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var homeFeed: UIImageView!
-    
-    var selectedImageView: UIImageView!
-    
-    
     override func viewDidLoad() {
-        
         super.viewDidLoad()
 
-        scrollView.delegate = self
-        scrollView.contentSize = homeFeed.image!.size
-        
-        
         // Do any additional setup after loading the view.
     }
 
@@ -35,29 +22,20 @@ class FeedViewController: UIViewController, UIScrollViewDelegate
     }
     
 
-    @IBAction func didTapPhoto(sender: UITapGestureRecognizer) {
+    @IBAction func tappedTestTapGestureRecognizer(sender: UITapGestureRecognizer) {
         
-        selectedImageView = sender.view as! UIImageView
+        print("tappedtest")
         
-        
-        print("tapped")
-        performSegueWithIdentifier("photoSegue", sender: self)
+        performSegueWithIdentifier("testSegue", sender: self)
     }
-    
-    
-    
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        let photoViewController = segue.destinationViewController as! PhotoViewController
-        
- //       PhotoViewController.photoImage = selectedImageView.image
-        
     }
-    
+    */
 
 }
