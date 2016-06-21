@@ -18,6 +18,8 @@
 		C967424A1D17723700049B0D /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96742491D17723700049B0D /* PhotoViewController.swift */; };
 		C967424C1D17851C00049B0D /* test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C967424B1D17851C00049B0D /* test1ViewController.swift */; };
 		C967424E1D17856D00049B0D /* test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C967424D1D17856D00049B0D /* test2ViewController.swift */; };
+		C96742511D17933A00049B0D /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C967424F1D17933A00049B0D /* BaseTransition.swift */; };
+		C96742521D17933A00049B0D /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96742501D17933A00049B0D /* FadeTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		C96742491D17723700049B0D /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		C967424B1D17851C00049B0D /* test1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = test1ViewController.swift; path = ../test1ViewController.swift; sourceTree = "<group>"; };
 		C967424D1D17856D00049B0D /* test2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test2ViewController.swift; sourceTree = "<group>"; };
+		C967424F1D17933A00049B0D /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		C96742501D17933A00049B0D /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				C967424D1D17856D00049B0D /* test2ViewController.swift */,
 				C96742491D17723700049B0D /* PhotoViewController.swift */,
 				C96742471D176D3100049B0D /* FeedViewController.swift */,
+				C967424F1D17933A00049B0D /* BaseTransition.swift */,
+				C96742501D17933A00049B0D /* FadeTransition.swift */,
 				C96742201D17696000049B0D /* Assets.xcassets */,
 				C96742221D17696000049B0D /* LaunchScreen.storyboard */,
 				C96742251D17696000049B0D /* Info.plist */,
@@ -270,7 +276,9 @@
 			files = (
 				C967421C1D17696000049B0D /* ViewController.swift in Sources */,
 				C967424A1D17723700049B0D /* PhotoViewController.swift in Sources */,
+				C96742521D17933A00049B0D /* FadeTransition.swift in Sources */,
 				C967424C1D17851C00049B0D /* test1ViewController.swift in Sources */,
+				C96742511D17933A00049B0D /* BaseTransition.swift in Sources */,
 				C967424E1D17856D00049B0D /* test2ViewController.swift in Sources */,
 				C96742481D176D3100049B0D /* FeedViewController.swift in Sources */,
 				C967421A1D17696000049B0D /* AppDelegate.swift in Sources */,

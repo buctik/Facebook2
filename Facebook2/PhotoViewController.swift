@@ -12,10 +12,17 @@ class PhotoViewController: UIViewController {
 
     var photoImage: UIImage!
     
+//    var imageTransition: ImageTransition!
+    
+    @IBOutlet weak var photoImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        
+        photoImageView.image = photoImage
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +31,9 @@ class PhotoViewController: UIViewController {
     }
     
 
+    @IBAction func tappedDoneButton(sender: UIButton) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 

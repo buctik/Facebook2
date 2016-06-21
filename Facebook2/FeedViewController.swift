@@ -16,7 +16,7 @@ class FeedViewController: UIViewController, UIScrollViewDelegate
     @IBOutlet weak var homeFeed: UIImageView!
     
     var selectedImageView: UIImageView!
-    
+//    var imageTransition: ImageTransition!
     
     override func viewDidLoad() {
         
@@ -53,9 +53,10 @@ class FeedViewController: UIViewController, UIScrollViewDelegate
     
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
         let photoViewController = segue.destinationViewController as! PhotoViewController
         
- //       PhotoViewController.photoImage = selectedImageView.image
+        photoViewController.photoImage = selectedImageView.image
         
     }
     
